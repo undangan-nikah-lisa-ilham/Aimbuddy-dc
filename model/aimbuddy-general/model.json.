@@ -1,0 +1,8 @@
+{
+  "title": "AimBuddy Custom",
+  "description": "Model buatan sendiri.",
+  "author": "AimBuddy",
+  "version": 1,
+  "roles": ["body", "head", "ignore"],
+  "inputSize": 256
+}
