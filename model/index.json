@@ -1,10 +1,27 @@
-[
-  {
-    "id": "aimbuddy-general",
-    "title": "AimBuddy Custom",
-    "description": "Model buatan sendiri.",
-    "author": "AimBuddy",
-    "version": 1,
-    "sizeBytes": 9000000
-  }
-]
+{
+  "schema": 1,
+  "models": [
+    {
+      "id": "aimbuddy-general",
+      "title": "AimBuddy Custom",
+      "description": "Model buatan sendiri.",
+      "author": "AimBuddy",
+      "version": 1,
+      "param": {
+        "path": "aimbuddy-general/model.param",
+        "size": 26381,
+        "sha256": "HASH_PARAM"
+      },
+      "bin": {
+        "path": "aimbuddy-general/model.bin",
+        "size": 9577420,
+        "sha256": "HASH_BIN"
+      },
+      "profile": {
+        "path": "aimbuddy-general/model.json",
+        "size": 254,
+        "sha256": "HASH_JSON"
+      }
+    }
+  ]
+}
