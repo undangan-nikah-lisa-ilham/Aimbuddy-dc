@@ -1,12 +1,27 @@
-[
-  {
-    "id": "aimbuddy-general",
-    "title": "AimBuddy Custom",
-    "description": "Model buatan sendiri.",
-    "author": "AimBuddy",
-    "version": 1,
-    "param": "aimbuddy-general/model.param",
-    "bin": "aimbuddy-general/model.bin",
-    "json": "aimbuddy-general/model.json"
-  }
-]
+{
+  "schema": 1,
+  "models": [
+    {
+      "id": "aimbuddy-general",
+      "title": "AimBuddy General",
+      "description": "Finds people in most 3D shooters without training for your game.",
+      "author": "AimBuddy",
+      "version": 1,
+      "param": {
+        "path": "aimbuddy-general/model.param",
+        "size": 26381,
+        "sha256": "4034f2c3527f624b7d762cf96471fd31bde06b0e87dbaf3efa6dc058c47bf8d2"
+      },
+      "bin": {
+        "path": "aimbuddy-general/model.bin",
+        "size": 9577420,
+        "sha256": "e55598119776a6181a0363f31e4dd93e59636fa0ac3d76db83a31b3b2c8d2bbd"
+      },
+      "profile": {
+        "path": "aimbuddy-general/model.json",
+        "size": 199,
+        "sha256": "f75512ef2aeec50602f7d5f378df34f2405fbad03132a418c58bf38a45e746c6"
+      }
+    }
+  ]
+}
