@@ -1,26 +1,12 @@
-{
-  "schema": 1,
-  "models": [
-    {
-      "id": "aimbuddy-general",
-      "title": "AimBuddy Custom",
-      "description": "Model buatan sendiri.",
-      "author": "AimBuddy",
-      "version": 1,
-      "param": {
-        "path": "aimbuddy-general/model.param",
-        "size": 26381,
-        "sha256": "4034f2c3527f624b7d762cf96471fd31bde06b0e87dbaf3efa6dc058c47bf8d2"
-      },
-      "bin": {
-        "path": "aimbuddy-general/model.bin",
-        "size": 9577420,
-        "sha256": "e55598119776a6181a0363f31e4dd93e59636fa0ac3d76db83a31b3b2c8d2bbd"
-      },
-      "profile": {
-        "path": "aimbuddy-general/model.json",
-        "size": 221,
-        "sha256": "059084d4bbaf6e5452a1fb6b1ea989191bef8743d84bc1f168cfa81863970bc1"
-      }                                                               }
-  ]
-}                                                                 
+[
+  {
+    "id": "aimbuddy-general",
+    "title": "AimBuddy Custom",
+    "description": "Model buatan sendiri.",
+    "author": "AimBuddy",
+    "version": 1,
+    "param": "aimbuddy-general/model.param",
+    "bin": "aimbuddy-general/model.bin",
+    "json": "aimbuddy-general/model.json"
+  }
+]
